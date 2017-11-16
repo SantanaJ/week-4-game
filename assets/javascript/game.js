@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
         var maxNumber = Math.floor(Math.random() * (119) + 2);
-        $("#number-to-guess").text(targetNumber);
+        $("#number-to-guess").text(maxNumber);
 
         var counter = 0;
         var green = Math.floor(Math.random() * 12) + 1;
@@ -9,26 +9,22 @@ $(document).ready(function () {
         var purple = Math.floor(Math.random() * 12) + 1;
         var blue = Math.floor(Math.random() * 12) + 1;
 
-        $(".green").on("click"),
-            function () {
-                counter += greenScore;
+        $("#green").on("click", function () {
+                counter += maxNumber;
                 $(".hash").html(counter);
-            }
-        $(".yellow").on("click"),
-            function () {
-                counter += yellowScore;
+            });
+        $("#yellow").on("click", function () {
+                counter += maxNumber;
                 $(".hash").html(counter);
-            }
-        $(".purple").on("click"),
-            function () {
-                counter += greenScore;
+            });
+        $("#purple").on("click", function () {
+                counter += maxNumber;
                 $(".hash").html(counter);
-            }
-        $(".black").on("click"),
-            function () {
-                counter += greenScore;
+            });
+        $("#black").on("click", function () {
+                counter += maxNumber;
                 $(".hash").html(counter);
-            }
+            });
 
 var wons=[];
 var losses=[];
