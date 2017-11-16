@@ -43,26 +43,28 @@ body{
     color:blue;
 }
 
-.crystal{
-    margin: 30px;
+/* .crystal{
+    /* margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.8;
-    filter: alpha (opacity=20);
-}
+    filter: alpha (opacity=20); */
+/* } */ 
 
-.score{
-    margin: 30px;
+/* .score{
+    /* margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.8;
-    filter: alpha (opacity=20);
-}
+    filter: alpha (opacity=20); */
+/* } */
 
 .scr{
     color:white;
     text-shadow: 1px 1px 2px rgb(35, 15, 71), 0 0 25px plum, 0 0 5px purple;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
 }
 
 .win{
@@ -80,9 +82,39 @@ body{
 .photo{
     color:white;
     text-shadow: 1px 1px 2px rgb(35, 15, 71), 0 0 25px plum, 0 0 5px purple;
-    font-family: 'Montserrat', sans-
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+
+.demo{
+    text-align: center;
+}
+
+/* .aside{
+
+    /* background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha (opacity=20);  */
+/* } */ 
+
+/* .number{
+    /* background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha (opacity=20); 
+     */
+/* } */ 
+
+.hash{
+    color: yellow;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.space{
+    margin: 2px 2px 2px 2px;
 }
 
 
 
-/* //change text to white */
