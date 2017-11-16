@@ -1,0 +1,88 @@
+.jumbotron{
+    background-image: url(../images/d80f0b1e-7a5c-41da-9255-574f7d6e45a2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
+    /* text-shadow: 2px 2px purple; */
+
+}
+
+/* //Create a wider span */
+
+.main{
+    text-align: center;
+    font-family:'Vollkorn SC', serif;
+}
+
+body{
+    background-image: url(../images/2cb412168e244e6504082534a9733366.jpg) ;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+#int{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(35, 15, 71), 0 0 25px plum, 0 0 5px purple;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.introbox{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha (opacity=20);
+}
+
+#intP{
+    text-align:center;
+    font-size: bold;
+    color:blue;
+}
+
+.crystal{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha (opacity=20);
+}
+
+.score{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha (opacity=20);
+}
+
+.scr{
+    color:white;
+    text-shadow: 1px 1px 2px rgb(35, 15, 71), 0 0 25px plum, 0 0 5px purple;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.win{
+    color:white;
+    text-shadow: 1px 1px 2px rgb(35, 15, 71), 0 0 25px plum, 0 0 5px purple;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loss{
+    color:white;
+    text-shadow: 1px 1px 2px rgb(35, 15, 71), 0 0 25px plum, 0 0 5px purple;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.photo{
+    color:white;
+    text-shadow: 1px 1px 2px rgb(35, 15, 71), 0 0 25px plum, 0 0 5px purple;
+    font-family: 'Montserrat', sans-
+}
+
+
+
+/* //change text to white */
