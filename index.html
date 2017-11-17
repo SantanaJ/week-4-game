@@ -29,49 +29,69 @@
                     </p>
                 </div>
             </div>
-            <div class="$space row">
+            <div class="space row">
                 <div class="col-xs-12">
                 </div>
             </div>
-            <div class="crystal row">
-                <div class="col-md-3">
-                    <button id="green" type="button" class= "btn btn-default">
-                        <center>
-                            <img src="assets/images/greencrystal.png" alt="green" class="img-rounded" width="100" height="150">
-                        </center>
-                    </button>
-                </div>
-                <div class="col-md-3">
-                    <button id="yellow" type="button" class= "btn btn-default">
-                        <center>
-                            <img src="assets/images/yellowcrystal.png" alt="yellow" class="img-rounded" width="100" height="150">
-                        </center>
-                    </button>
-                </div>
-                <div class="col-md-3">
-                    <button id="purple" type="button" class= "purple btn btn-default">
-                        <center>
-                            <img src="assets/images/purplecrystal.png" alt="purple" class="img-rounded" width="100" height="150">
-                        </center>
-                    </button>
-                </div>
-                <div class="col-md-3">
-                    <button id="black"type="button" class="black btn btn-default">
-                        <center>
-                            <img src="assets/images/blackcrystal.png" alt="black" class="img-rounded" width="100" height="150">
-                        </center>
-                    </button>
+            <div class="row">
+                <div class= "col-sm-4">
+                  <div id="number-to-guess">
+                      <h1>NUMBER TO GUESS</h1>
+                  </div>
+
                 </div>
             </div>
-            <div class="score row">
+
+            <div id="crys" class="crystal row">
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-default">
+                        <center>
+                            <img id="green"  src="assets/images/greencrystal.png" alt="green" class="img-rounded" width="100" height="150">
+                        </center>
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <button  type="button" class="btn btn-default">
+                        <center>
+                            <img id="yellow" src="assets/images/yellowcrystal.png" alt="yellow" class="img-rounded" width="100" height="150">
+                        </center>
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <button  type="button" class="purple btn btn-default">
+                        <center>
+                            <img id="purple" src="assets/images/purplecrystal.png" alt="purple" class="img-rounded" width="100" height="150">
+                        </center>
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="black btn btn-default">
+                        <center>
+                            <img id="black" src="assets/images/blackcrystal.png" alt="black" class="img-rounded" width="100" height="150">
+                        </center>
+                    </button>
+                </div>
+                <br></br><br>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                   "" 
+                   <br>
+                   ""
+                </div>
+            </div>
+            <div class="row" id="points">
                 <div class="col-sm-4 number">
+                    <br><br><br>
                     <h5 class="scr">SCORE</h5>
                     <h1 class="hash"></h1>
                 </div>
-                <div class="col-sm-3 aside">
+                <div class="col-sm-3" id="tasks" >
                     <h5 class="win">WINS:</h5>
-                    <br>
+                    <h3 class="wons"></h3>
+                    <br><br><br>
                     <h5 class="loss">LOSSES:</h5>
+                    <h3 class="losses"></h3>
                 </div>
                 <div class="col-sm-5">
                     <h5 class="photo">Don't let the Demogorgan get you!</h5>
